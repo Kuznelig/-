@@ -122,3 +122,141 @@ body {
     line-height: 19px;
     font-weight: 700;
 }
+
+
+
+
+
+body {
+    margin: 0;
+}
+.header-container {
+    width: 1170px;
+    padding-right: 55px;
+    padding-left: 55px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.main-nav {
+    width: 1170px;
+    display: flex;
+    
+}
+.logo {
+    width: 64px;
+    margin: 0;
+    margin-right: auto;
+}
+.account {
+    width: 36px;
+}
+.site-navigation-list {
+    width: 560px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-right: 40px;
+}
+.main-content {
+    width: 1170px;
+    padding-right: 55px;
+    padding-left: 55px;
+    margin: 0 auto;
+}
+.hero {
+    width: 1170px;
+    margin-bottom: 120px;
+}
+.hero h1 {
+    /* margin: 0; */
+    margin-bottom: 40px;
+}
+
+.blog-article {
+    width: 1030px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.blog-article-1 {
+    margin-bottom: 100px;
+}
+.blog-article-2 {
+    margin-bottom: 120px;
+    flex-direction: row-reverse;
+}
+.content-column {
+    width: 400px;
+}
+.img-column {
+    width: 600px;
+}
+.news {
+    width: 770px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.news figure {
+    padding: 0;
+    margin: 0;
+}
+.news h2 {
+    text-align: center;
+    margin-bottom: 55px;
+}
+.contacts {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.map-column {
+    width: 670px;
+    margin-right: 100px;
+    
+}
+.contacts-column {
+    width: 400px;
+}
+.contacts h2 {
+    margin: 0;
+}
+.main-footer {
+    margin-top: 120px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
+.footer-container {
+    width: 1170px;
+    margin: 0 auto;
+    padding-right: 55px;
+    padding-left: 55px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    width: 870px;
+    justify-content: space-between;
+}
+.footer-list-item {
+    width: 165px;
+}
+.main-footer h2 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+.footer-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
