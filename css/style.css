@@ -15,6 +15,7 @@ body {
     font-style: italic;
     text-transform: uppercase;
     font-weight: normal;
+    margin-left: 70px;
 }
 .blog-article h2 {
     font-size: 24px;
@@ -43,8 +44,12 @@ body {
     text-decoration-thickness: 2px;
     text-underline-offset: 15px;
     text-underline-position: under;
+    padding-top: 50px;
 }
-
+.contact-list-items h3 {
+    font-size: 16px;
+    line-height: 22px;
+}
 .contact-list-items a {
     font-size: 16px;
     line-height: 22px;
@@ -56,6 +61,8 @@ body {
     line-height: 22px;
     font-style: normal;
 }
+
+
 .footer-list-item h2 {
     font-size: 14px;
     line-height: 18px;
@@ -104,11 +111,13 @@ body {
 .news h4 {
     font-size: 20px;
     line-height: 26px;
+    font-weight: 700;
 }
 .news blockquote {
     font-size: 26px;
     line-height: 36px;
     font-weight: 700;
+    border-left: 2px solid rgba(0, 198, 189, 1);
 }
 .news time {
     font-size: 16px;
@@ -142,6 +151,7 @@ body {
 .main-nav {
     width: 1170px;
     display: flex;
+    align-items: center;
     
 }
 .logo {
@@ -151,6 +161,7 @@ body {
 }
 .account {
     width: 36px;
+    height: 36px;
 }
 .site-navigation-list {
     width: 560px;
@@ -158,6 +169,9 @@ body {
     margin: 0;
     list-style: none;
     margin-right: 40px;
+    display: flex;
+    gap: 30px;flex-wrap: wrap;
+    align-items: center;
 }
 .main-content {
     width: 1170px;
@@ -173,7 +187,9 @@ body {
     /* margin: 0; */
     margin-bottom: 40px;
 }
-
+.hero img {
+    display: block;
+}
 .blog-article {
     width: 1030px;
     margin: 0 auto;
@@ -183,9 +199,20 @@ body {
 .blog-article-1 {
     margin-bottom: 100px;
 }
+.blog-article h2 {
+    margin: 0;
+    margin-bottom: 35px;
+}
+.blog-article p {
+    margin: 0;
+    margin-bottom: 10px;
+}
 .blog-article-2 {
     margin-bottom: 120px;
     flex-direction: row-reverse;
+}
+.blog-article-2 .content-column {
+    text-align: right;
 }
 .content-column {
     width: 400px;
@@ -198,14 +225,82 @@ body {
     margin: 0 auto;
     margin-bottom: 120px;
 }
+/* Сброс отступов тега figure по умолчанию: */
 .news figure {
     padding: 0;
     margin: 0;
 }
+
 .news h2 {
     text-align: center;
     margin-bottom: 55px;
 }
+.post-img img {
+    display: block;
+    margin-bottom: 17px;
+}
+.post-img figcaption {
+    margin-bottom: 33px;
+}
+.news h3 {
+    margin-top: 33px;
+    margin-bottom: 27px;
+}
+.news h4 {
+    margin-top: 24px;
+    margin-bottom: 15px;
+}
+.news p {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.participant-list {
+    margin: 0;
+    padding: 0;
+    padding-left: 19px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.participant-list-item {
+    margin-bottom: 8px;
+}
+.news blockquote {
+    margin: 0;
+    padding: 0;
+    margin-top: 38px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+.post-footer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-author-img img {
+    width: 60px;
+}
+
+.post-author-img {
+    display: flex;
+}
+.post-author-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 15px;
+    width: 142px;
+}
+.arrow img {
+    width: 26px;
+}
+.contact-list h3 {
+    margin: 0;
+    margin-right: 10px;
+}
+
+
+
 .contacts {
     margin: 0 auto;
     display: flex;
@@ -223,10 +318,42 @@ body {
 .contacts h2 {
     margin: 0;
 }
+.contact-list {
+    padding: 0;
+    margin: 0;
+    margin-top: 35px;
+    list-style: none;
+}
+.social-list {
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.social-list-item {
+    width: 40px;
+    height: 40px;
+}
+.contact-list-items:last-child {
+    display: block;
+}
+.contact-list-items {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
 .main-footer {
     margin-top: 120px;
     padding-top: 60px;
     padding-bottom: 60px;
+    border-top: 1px solid rgba(22, 49, 82, 0.1);
     
 }
 .footer-container {
@@ -238,6 +365,20 @@ body {
     justify-content: space-between;
 
 }
+.logo-column a {
+    display: block;
+}
+.logo-column img {
+    margin-bottom: 30px;
+}
+.policy {
+    margin: 0;
+    margin-bottom: 10px;
+}
+.copyright {
+    margin: 0;
+    
+}
 .footer-list {
     padding: 0;
     margin: 0;
@@ -247,9 +388,10 @@ body {
     justify-content: space-between;
 }
 .footer-list-item {
+   
     width: 165px;
 }
-.main-footer h2 {
+.footer-list-item h2 {
     margin: 0;
     margin-bottom: 20px;
 }
@@ -257,6 +399,12 @@ body {
     padding: 0;
     margin: 0;
     list-style: none;
+}
+.footer-menu-item {
+    margin-bottom: 10px;
+}
+.footer-menu-item:last-child {
+    margin-bottom: 0;
 }
 .gallery {
     width: 1170px;
@@ -293,4 +441,22 @@ body {
 .preview-item:last-child {
     margin-bottom: 0;
 }
+.preview-item img {
+    display: block;
+}
+.preview-item a {
+    position: relative;
+}
+.preview-item a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(253, 253, 255, 0.5);
+}
+.preview-item a.active-item::before {
+    background-color: rgba(255, 255, 255, 0);
 
+}
